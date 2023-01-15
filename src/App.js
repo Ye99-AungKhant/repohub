@@ -8,14 +8,21 @@ import Story from "./views/pages/Story";
 const App = (props) => {
   return (
     <div>
-      <Navbar />
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
+            <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="story" element={<Story />} />
-        <Route path="services" element={<Services />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="story" element={<Story />} />
+              <Route path="services" element={<Services />} />
+              <Route path="contact" element={<Contact />} />
+            </Routes>
+          </div>
+        </div>
+      </div>
+
     </div>
   )
 }

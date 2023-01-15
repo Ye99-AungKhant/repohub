@@ -1,9 +1,17 @@
 import { NavLink } from "react-router-dom";
 
+
 const Navbar = (props) => {
     return (
         <div>
-            <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button>
+
+            <nav className="navbar navbar-expand-lg">
+                <div className="container">
+                    <a className="navbar-brand" href="#">Repohub</a>
+                    <button className="btn border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Menu</button>
+                </div>
+            </nav>
+
             <div className="offcanvas offcanvas-top" tabIndex={-1} id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
                 <div className="offcanvas-header">
                     <h5 className="offcanvas-title" id="offcanvasTopLabel">Repohub</h5>
