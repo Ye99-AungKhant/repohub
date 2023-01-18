@@ -7,7 +7,7 @@ const Navbar = (props) => {
 
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
-                    <a className="navbar-brand" href="#">Repohub</a>
+                    <a className="navbar-brand">Repohub</a>
                     <button className="btn border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Menu</button>
                 </div>
             </nav>

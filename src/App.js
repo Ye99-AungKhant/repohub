@@ -1,5 +1,5 @@
 import Navbar from "./views/components/Navbar";
-import { Link, NavLink, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Contact from "./views/pages/Contact";
 import Home from "./views/pages/Home";
 import Services from "./views/pages/Services";
